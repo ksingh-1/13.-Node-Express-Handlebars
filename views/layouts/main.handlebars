@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Best Burgers!</title>
+    <link rel="icon" href="/assets/images/best-burger.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/burger_style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <center>
+            <h1 class="font">Welcome To Best Burgers!</h1>
+            {{!-- <h1 class="font">Welcome To Boston Burgers!<small class="tiny_text"></small></h1> --}}
+        </center>
+        <br>
+        <center>
+            <div class="row">
+                <img src="/assets/images/best-burger.jpg" width="250" height="250">
+            </div>
+        </center>
+        <br>
+
+    <!-- index.handlebars Content -->
+        {{{body}}}
+
+        <br><br>
+        {{!-- Form That Allows Burger Creation --}}
+        <form action=" burger/create" method="POST">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="form-group col-md-6">
+                    <center><label for="new_burger" class="font">Create/Customize Your Own Burger!</label>
+                    </center>
+                    {{!-- Burger Name --}}
+                    <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            {{!-- Burger Creation Button --}}
+            <center>
+                <button id="submit-button" type="submit" class="btn btn-danger">Create It!</button>
+            </center>
+        </form>
+        <br>
+        <center>
+            <div class="row">
+                <img src="/assets/images/burger-cook.jpg"width="200" height="250">
+            </div>
+        </center>
+        <br>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+
+</body>
+
+</html>
