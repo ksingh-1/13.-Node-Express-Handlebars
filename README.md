@@ -11,8 +11,8 @@
 </p>
 
 ## Title
-13.-Node-Express-Handlebars - Deployed Heroku: 
-![Screenshot](https://github.com/ksingh-1/)
+13.-Node-Express-Handlebars - Deployed Heroku: https://glacial-falls-63654.herokuapp.com/index
+![Screenshot](https://github.com/ksingh-1/13.-Node-Express-Handlebars/blob/master/public/assets/images/Working%20Website%20Screenshot.PNG/)
 
 ## Description
 *Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
@@ -23,6 +23,7 @@
 ## Table of Contents
 * *[Title](#title)*
 * *[Description](#description)*
+* *[Installation](#installation)*
 * *[Usage](#usage)*
 * *[License](#license)*
 * *[Contributors](#contributors)*
